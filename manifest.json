@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "TrumpButt",
   "version": "1.0",
-  "description": "Making the web more... cheeky!",
+  "description": "Replaces all instances of the word 'Trump' with 'Butt' on any webpage.",
   "permissions": ["storage", "activeTab"],
   "host_permissions": ["<all_urls>"],
   "background": {

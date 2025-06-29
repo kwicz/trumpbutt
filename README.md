@@ -13,21 +13,13 @@ Make the web more... cheeky! This Chrome extension replaces every instance of "T
 - Works on all sites, including social media
 - Easy on/off toggle from the extension popup
 
----
+## Usage
 
-## Screenshots
+- Click the extension icon to open the popup.
+- Use the toggle switch to turn the effect on or off.
+- The counter shows how many times "Trump" has been replaced with "Butt".
 
-### Example on Twitter
-
-![twitter.com Example](<(root)/assets/twitter-screenshot.png>)
-
-### Extension Popup
-
-![Popup Screenshot](<(root)/assets/popup-screenshot.png>)
-
-### Extension Logo
-
-![Trump Butt Logo](<(root)/assets/logo__roundedcorners.png>)
+![twitter.com Example](<(root)/assets/xitter.gif>)
 
 ---
 
@@ -38,24 +30,3 @@ Make the web more... cheeky! This Chrome extension replaces every instance of "T
 3. Enable "Developer mode" (top right).
 4. Click "Load unpacked" and select this project folder.
 5. Pin the extension for easy access!
-
----
-
-## Usage
-
-- Click the extension icon to open the popup.
-- Use the toggle switch to turn the effect on or off.
-- The counter shows how many times "Trump" has been replaced with "Butt".
-
----
-
-## Credits
-
-- Logo and UI by [your name or handle]
-- Inspired by the internet's need for a little more cheekiness
-
----
-
-## Disclaimer
-
-This extension is for entertainment purposes only.

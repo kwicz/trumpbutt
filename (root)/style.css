@@ -24,7 +24,7 @@ body {
 }
 .btn {
   width: 100%;
-  padding: 1rem 5rem;
+  padding: 1rem 4rem;
   font-size: 1.1rem;
   font-weight: bold;
   background: linear-gradient(45deg, #ff4081, #ff6b35);
@@ -53,6 +53,12 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 0 2rem;
+  }
+  @media (max-width: 768px) {
+    .nav-container {
+      flex-direction: column;
+      gap: 2rem;
+    }
   }
   .logo {
     font-size: 2rem;

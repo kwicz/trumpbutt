@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TrumpButt Support</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-container">
+        <a href="index.html" class="logo">
+          <img
+            src="../assets/logo__roundedcorners.png"
+            alt="Trump Butt Logo"
+            class="img-logo"
+          />
+          Trump Butt
+        </a>
+        <ul class="nav-links">
+          <li><a href="support.html">Support</a></li>
+          <li><a href="privacy.html">Privacy</a></li>
+          <li>
+            <a
+              href="https://buymeacoffee.com/cxsdeveloper"
+              target="_blank"
+              rel="noopener"
+            >
+              Buy Me a Coffee
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <main>
+      <!-- Support Section -->
+      <section id="support" class="support hero">
+        <div class="support-container">
+          <form
+            id="support-form"
+            action="mailto:cxsdeveloper@gmail.com"
+            method="POST"
+            enctype="text/plain"
+          >
+            <h1>Need Help with Trump Butt?</h1>
+            <p>
+              Fill out the form below and our team will get back to you as soon
+              as possible. For installation help, bug reports, feature requests,
+              or any other support with the TrumpButt extension, we're here for
+              you!
+            </p>
+            <label for="name" style="font-weight: bold">Your Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required
+              placeholder="e.g. Jane Doe"
+            />
+
+            <label for="email" style="font-weight: bold">Your Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+              placeholder="you@email.com"
+            />
+
+            <label for="subject" style="font-weight: bold"
+              >How can we help?</label
+            >
+            <select id="subject" name="subject" required>
+              <option value="" disabled selected>Select a topic</option>
+              <option value="Installation Help">Installation Help</option>
+              <option value="Bug Report">Bug Report</option>
+              <option value="Feature Request">Feature Request</option>
+              <option value="General Question">General Question</option>
+              <option value="Other">Other</option>
+            </select>
+
+            <label for="message" style="font-weight: bold">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              required
+              rows="6"
+              placeholder="Describe your issue or question in detail..."
+            ></textarea>
+
+            <div>
+              <input type="checkbox" id="consent" name="consent" required />
+              <label for="consent"
+                >I consent to be contacted about my support request.</label
+              >
+            </div>
+
+            <button
+              type="submit"
+              style="
+                width: 100%;
+                padding: 1rem;
+                font-size: 1.1rem;
+                font-weight: bold;
+                background: linear-gradient(45deg, #ff4081, #ff6b35);
+                color: white;
+                border: none;
+                border-radius: 30px;
+                box-shadow: 0 4px 15px rgba(255, 107, 53, 0.18);
+                cursor: pointer;
+                transition: background 0.2s;
+              "
+            >
+              Send Support Request
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <ul class="footer-links">
+          <li>
+            <a
+              href="index.html"
+              style="color: white; text-decoration: underline"
+            >
+              Home
+            </a>
+          </li>
+          <li>
+            <a
+              href="support.html"
+              style="color: white; text-decoration: underline"
+            >
+              Support
+            </a>
+          </li>
+          <li>
+            <a
+              href="privacy.html"
+              style="color: white; text-decoration: underline"
+            >
+              Privacy
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://buymeacoffee.com/cxsdeveloper"
+              target="_blank"
+              rel="noopener"
+              style="color: white; text-decoration: underline"
+            >
+              Buy Me a Coffee
+            </a>
+          </li>
+        </ul>
+        <p style="margin-top: 0.5rem; opacity: 0.7">
+          Making the news better, one butt at a time.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

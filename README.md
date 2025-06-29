@@ -1,6 +1,6 @@
 # Trump Butt Chrome Extension
 
-![Logo](assets/logo__roundedcorners.png)
+![Logo](<(root)/assets/logo__roundedcorners.png>)
 
 Make the web more... cheeky! This Chrome extension replaces every instance of "Trump" with "Butt" on any webpage you visit. Enjoy a lighter, more humorous browsing experience.
 
@@ -19,15 +19,15 @@ Make the web more... cheeky! This Chrome extension replaces every instance of "T
 
 ### Example on Twitter
 
-![twitter.com Example](assets/twitter-screenshot.png)
+![twitter.com Example](<(root)/assets/twitter-screenshot.png>)
 
 ### Extension Popup
 
-![Popup Screenshot](assets/popup-screenshot.png)
+![Popup Screenshot](<(root)/assets/popup-screenshot.png>)
 
 ### Extension Logo
 
-![Trump Butt Logo](assets/logo__roundedcorners.png)
+![Trump Butt Logo](<(root)/assets/logo__roundedcorners.png>)
 
 ---
 

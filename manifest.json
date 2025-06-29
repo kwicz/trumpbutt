@@ -11,10 +11,10 @@
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
-      "16": "assets/logo__roundedcorners.png",
-      "32": "assets/logo__roundedcorners.png",
-      "48": "assets/logo__roundedcorners.png",
-      "128": "assets/logo__roundedcorners.png"
+      "16": "(root)/assets/logo__roundedcorners.png",
+      "32": "(root)/assets/logo__roundedcorners.png",
+      "48": "(root)/assets/logo__roundedcorners.png",
+      "128": "(root)/assets/logo__roundedcorners.png"
     }
   },
   "content_scripts": [
@@ -26,17 +26,17 @@
   "web_accessible_resources": [
     {
       "resources": [
-        "assets/logo__roundedcorners.png",
-        "assets/logo__transparent.png"
+        "(root)/assets/logo__roundedcorners.png",
+        "(root)/assets/logo__transparent.png"
       ],
       "matches": ["<all_urls>"]
     }
   ],
   "icons": {
-    "16": "assets/logo__transparent.png",
-    "32": "assets/logo__transparent.png",
-    "48": "assets/logo__transparent.png",
-    "128": "assets/logo__transparent.png"
+    "16": "(root)/assets/logo__transparent.png",
+    "32": "(root)/assets/logo__transparent.png",
+    "48": "(root)/assets/logo__transparent.png",
+    "128": "(root)/assets/logo__transparent.png"
   },
   "content_security_policy": {
     "extension_pages": "script-src 'self'; object-src 'self'; font-src 'self' data: https://fonts.googleapis.com https://fonts.gstatic.com;"
